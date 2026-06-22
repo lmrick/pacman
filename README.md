@@ -36,7 +36,7 @@ git clone https://github.com/lmrick/pacman.git
 cd pacman
 
 # Compile the project
-javac fun/pacman/*.java
+mvn package fun/pacman/*.java
 
 # Run the game
 java fun.pacman.Pacman
