@@ -35,11 +35,11 @@ git clone https://github.com/lmrick/pacman.git
 # Navigate to the project folder
 cd pacman
 
-# Compile the project
-mvn package fun/pacman/*.java
+# Build the project
+mvn clean package
 
-# Run the game
-java fun.pacman.Pacman
+# Run the compiled jar
+java -jar target/pacman.jar
 ```
 
 # Controls
